@@ -1,4 +1,6 @@
 import os
+import nltk
+nltk.download("punkt_tab")
 os.environ["TRANSFORMERS_NO_TF"] = "1"
 
 from transformers import pipeline
